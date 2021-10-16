@@ -1,4 +1,4 @@
-//
+// Dictionary app
 import { Container, Switch, withStyles } from "@material-ui/core";
 import { grey } from "@material-ui/core/colors";
 import axios from "axios";
