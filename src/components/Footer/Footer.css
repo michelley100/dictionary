@@ -1,31 +1,25 @@
-.meanings {
+.footer {
+  background-color: #282c34;
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  height: 55vh;
-  border: 10px solid rgb(105, 105, 105);
-  border-radius: 10px;
-  padding: 10px 20px;
-  overflow-x: hidden;
+  align-items: center;
+  color: rgb(10, 10, 10);
+}
+.name {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
 }
 
-.subTitle {
-  font-size: 5vw;
-  font-family: "Montserrat", sans-serif;
+/* a {
+  color: white;
 }
 
-@media (max-width: 900px) {
-  .meanings {
-    overflow: scroll;
-    overflow-x: hidden;
-    height: 60vh;
-  }
-}
-.singleMean {
+.iconContainer {
+  width: 60%;
+  height: 20px;
+  padding: 20px 0;
   display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin: 10px 0;
-}
+  align-items: center;
+  justify-content: space-evenly;
+} */
